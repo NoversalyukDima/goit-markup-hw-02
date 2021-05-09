@@ -1,6 +1,7 @@
 :root {
   --title-text-color: #212121;
   --primary-text-color: #757575;
+  --text: font-family: Roboto;
 }
 /*Web Studio half, background link color: #2196F3 */
 /*title text color: #212121;*/
@@ -16,12 +17,166 @@ a {
   list-style: none;
   text-decoration: none;
 }
-.title {
-  color: var(--title-text-color);
+
+.body {
+  font-family: var(--text);
 }
-.primary {
-  color: var(--primary-text-color);
+/*header*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-.address .link {
-  color: rgba(255, 255, 255, 0.6);
+.head-logo,.foot-logo {
+color: #212121
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+cursor: pointer;
+}
+.menu-link:focus,
+.menu-link:hover {
+ color: #2196F3; 
+}
+.mail-link, .tel-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: #2196F3;
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: #2196F3;
+}
+
+/*end header*/
+
+/*main-sec*/
+
+.main-sec-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+background: #2F303A;
+}
+.main-sec-button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+/*end main-sec*/
+
+/*features*/
+.features-main-title {
+  color: transparent;
+}
+.features-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.features-description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+/*end features*/
+
+/*work*/
+
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+ /*end work*/
+
+ /*team*/
+
+ .team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+ }
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.team-profesion {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+ /*end team*/
+
+  /*footer*/
+
+.main-address {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}  
+.mail-address, .tel-address {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+
 }
