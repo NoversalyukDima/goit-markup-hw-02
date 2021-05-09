@@ -1,0 +1,27 @@
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+}
+/*Web Studio half, background link color: #2196F3 */
+/*title text color: #212121;*/
+/*primary text color: #757575;*/
+/*h1, address color: #FFFFFF;
+footer link color: rgba(255, 255, 255, 0.6);*/
+
+/*main text font-family: Roboto;
+webstudio font-family: Raleway;*/
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.title {
+  color: var(--title-text-color);
+}
+.primary {
+  color: var(--primary-text-color);
+}
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
