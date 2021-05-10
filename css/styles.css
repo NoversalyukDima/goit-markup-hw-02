@@ -3,7 +3,6 @@
   --primary-text-color: #757575;
   --text: font-family: Roboto;
 }
-/*Web Studio half, background link color: #2196F3 */
 /*title text color: #212121;*/
 /*primary text color: #757575;*/
 /*h1, address color: #FFFFFF;
@@ -12,6 +11,7 @@ footer link color: rgba(255, 255, 255, 0.6);*/
 /*main text font-family: Roboto;
 webstudio font-family: Raleway;*/
 
+/*========= title Web Studio =========*/
 ul,
 a {
   list-style: none;
@@ -166,17 +166,80 @@ color: #757575;
   /*footer*/
 
 .main-address {
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }  
 .mail-address, .tel-address {
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
+}
+/*end footer*/
 
+/*========= end title Web Studio =========*/
+
+
+
+/*========= title portfolio =========*/
+
+
+/* section buttons */
+
+.button {
+font-family: var(--tex);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.button:focus,
+.button:hover {
+ background: #2196F3;
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px
+}
+
+/* end section buttons */
+
+/* Projects */
+
+.pf-projects {
+color: transparent;
+}
+
+.pf-proj-title {
+font-family: var(--text);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.pf-proj-text {
+font-family: var(--text);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.67;
+letter-spacing: 0.03em;
+color: #757575;
 }
