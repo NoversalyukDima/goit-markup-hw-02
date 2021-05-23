@@ -129,12 +129,8 @@ color: #757575;
 
 .main-sec {
   display: block;
-  text-align: center;
-   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  text-align: center;   
   padding-top: 200px;
-  padding-bottom: 200px;
   height: 600px;
   margin: 0 auto;
 }
@@ -151,6 +147,7 @@ margin-bottom: 30px;
 
 .div-main-sec {
   background: #2F303A;
+  margin: 0 auto;
 }
 .main-sec-button {
   font-family: var(--text);
@@ -172,23 +169,26 @@ border-radius: 4px;
 
 /*features*/
 
-.features {
-  display: flex;
-  justify-content: space-around;
-}
-
 .features-item {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right:not(last-child) 30px;
 }
 .features-list-item {
   width: 270px;
-  height: 75px;
+  height: 100px;
+  margin-top: 95px;
+  margin-bottom: 95px;
 }
 
 .features-main-title {
-  color: transparent;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
+
 .features-title {
 font-weight: 700;
 font-size: 14px;
@@ -205,9 +205,17 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
+
+
 /*end features*/
 
 /*work*/
+
+.work-img {
+  display: flex;
+  justify-content: space-between;
+ margin-bottom: 95px;
+}
 
 .work-title {
 font-weight: 700;
@@ -216,10 +224,29 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin-bottom: 50px;
 }
  /*end work*/
 
  /*team*/
+.team {
+  display: flex;
+  background: #F5F4FA;
+  height: 650px;
+}
+ 
+ .team-view {
+   display: flex;
+   justify-content: space-between;
+  
+   
+ }
+.team-description {
+  background-color: #FFFFFF;
+  width: 270px;
+  height: 370px;
+}
+
 
  .team-title {
 font-weight: 700;
@@ -227,6 +254,8 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
+margin-top: 95px;
+margin-bottom: 50px;
 color: #212121;
 
  }
@@ -236,6 +265,7 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+margin-top: 30px;
 
 color: #212121;
 }
@@ -245,6 +275,8 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+margin-top: 10px;
+margin-bottom: 30px;
 
 color: #757575;
 }
@@ -253,13 +285,21 @@ color: #757575;
 
   /*footer*/
 
+.address {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.footer-logo {
+  padding-top: 60px;
+}
 .main-address {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
-}  
+}
 .mail-address, .tel-address {
 font-weight: 400;
 font-size: 14px;
@@ -268,10 +308,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .footer {
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
+height: 250px;
 background: #2F303A;
 }
 /*end footer*/
@@ -283,7 +320,16 @@ background: #2F303A;
 /*========= title portfolio =========*/
 
 
+
 /* section buttons */
+
+.list-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  
+}
 
 .button {
 font-family: var(--tex);
@@ -297,6 +343,8 @@ letter-spacing: 0.03em;
 color: #212121;
 background: #F5F4FA;
 border-radius: 4px;
+cursor: pointer;
+margin-right: 10px;
 }
 
 .button:focus,
@@ -310,9 +358,9 @@ border-radius: 4px
 
 /* Projects */
 
-.portfolio-projects {
-  width: 1170px;
-
+.portfolio-proj  {
+  display: flex;
+  height: 1350px;
 }
 
 .portfolio-proj {
@@ -338,6 +386,7 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
+padding-left: 25px;
 }
 
 .pf-proj-text {
@@ -347,4 +396,8 @@ font-size: 16px;
 line-height: 1.67;
 letter-spacing: 0.03em;
 color: #757575;
+padding-left: 25px;
 }
+
+
+/* end section Projects */
